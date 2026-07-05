@@ -28,8 +28,8 @@ The original `creditcard.csv` file (~147 MB) is not included in this repository 
 
 You can download the dataset using either of the following options:
 
-- **Google Drive:** *(your link here)*
-- ![Kaggle] (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- [Google Drive]()
+- [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 ---
 
