@@ -288,11 +288,7 @@ Overall, this project highlights the importance of proper preprocessing, data le
 # 👨‍💻 Author
 
 **Arian**
+
 Machine Learning • Data Science • Python
-
----
-
-# ⭐ If you found this project useful, consider giving it a star!
----
 
 # ⭐ If you found this project useful, consider giving it a star!
