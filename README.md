@@ -12,7 +12,28 @@
 
 ---
 
-## 📊 Project Overview
+# 📑 Table of Contents
+
+- [📖 Project Overview](#-project-overview)
+- [📌 Project Workflow](#-project-workflow)
+- [📂 Dataset](#-dataset)
+- [🛠 Technologies Used](#-technologies-used)
+- [🔍 Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
+- [⚙️ Data Preprocessing](#️-data-preprocessing)
+- [🤖 Machine Learning Models](#-machine-learning-models)
+- [📈 Model Evaluation](#-model-evaluation)
+- [🏆 Cross-Validation Results](#-cross-validation-results)
+- [📊 Test Set Performance](#-test-set-performance)
+- [📷 Results](#-results)
+- [💡 Key Findings](#-key-findings)
+- [📁 Repository Structure](#-repository-structure)
+- [🚀 Installation](#-installation)
+- [🔮 Future Improvements](#-future-improvements)
+- [🎯 Conclusion](#-conclusion)
+- [👨‍💻 Author](#-author)
+
+---
+# 📊 Project Overview
 
 This project develops an end-to-end fraud detection pipeline using Python and Scikit-learn. It follows the complete machine learning workflow, from exploratory data analysis and preprocessing to model training, evaluation, and comparison.
 
