@@ -12,7 +12,7 @@
 
 ---
 
-# 📑 Table of Contents
+## 📑 Table of Contents
 
 - [📖 Project Overview](#-project-overview)
 - [📌 Project Workflow](#-project-workflow)
@@ -33,7 +33,7 @@
 - [👨‍💻 Author](#-author)
 
 ---
-# 📊 Project Overview
+## 📊 Project Overview
 
 This project develops an end-to-end fraud detection pipeline using Python and Scikit-learn. It follows the complete machine learning workflow, from exploratory data analysis and preprocessing to model training, evaluation, and comparison.
 
@@ -41,7 +41,7 @@ Since fraudulent transactions represent only **0.17%** of the dataset, tradition
 
 ---
 
-# 📌 Project Workflow
+## 📌 Project Workflow
 
 ```
 Data Exploration
@@ -73,7 +73,7 @@ Conclusion
 
 ---
 
-# 📂 Dataset
+## 📂 Dataset
 
 The project uses the **Credit Card Fraud Detection Dataset**, containing real-world credit card transactions made by European cardholders.
 
@@ -94,7 +94,7 @@ The project uses the **Credit Card Fraud Detection Dataset**, containing real-wo
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 - Python
 - NumPy
@@ -108,7 +108,7 @@ The project uses the **Credit Card Fraud Detection Dataset**, containing real-wo
 
 ---
 
-# 🔍 Exploratory Data Analysis (EDA)
+## 🔍 Exploratory Data Analysis (EDA)
 
 The exploratory analysis includes:
 
@@ -125,7 +125,7 @@ The exploratory analysis includes:
 
 ---
 
-# ⚙️ Data Preprocessing
+## ⚙️ Data Preprocessing
 
 The following preprocessing steps were applied before model training:
 
@@ -137,7 +137,7 @@ The following preprocessing steps were applied before model training:
 
 ---
 
-# 🤖 Machine Learning Models
+## 🤖 Machine Learning Models
 
 Three supervised learning algorithms were evaluated:
 
@@ -159,7 +159,7 @@ Classifier
 
 ---
 
-# 📈 Model Evaluation
+## 📈 Model Evaluation
 
 Models were compared using **3-Fold Stratified Cross-Validation**.
 
@@ -175,7 +175,7 @@ Models were compared using **3-Fold Stratified Cross-Validation**.
 
 ---
 
-# 🏆 Cross-Validation Results
+## 🏆 Cross-Validation Results
 
 | Model | Mean PR-AUC |
 |--------|------------:|
@@ -189,7 +189,7 @@ Models were compared using **3-Fold Stratified Cross-Validation**.
 
 ---
 
-# 📊 Test Set Performance
+## 📊 Test Set Performance
 
 | Metric | Score |
 |---------|-------|
@@ -205,7 +205,7 @@ Models were compared using **3-Fold Stratified Cross-Validation**.
 
 ---
 
-# 📷 Results
+## 📷 Results
 
 ## Model Evaluation
 
@@ -220,7 +220,7 @@ The final evaluation includes:
 
 ---
 
-# 💡 Key Findings
+## 💡 Key Findings
 
 - The dataset is extremely imbalanced, with fraudulent transactions representing only **0.17%** of all observations.
 - SMOTE effectively balanced the training data while preventing data leakage through pipelines.
@@ -231,7 +231,7 @@ The final evaluation includes:
 
 ---
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 
 ```text
 credit-card-fraud-detection/
@@ -252,7 +252,7 @@ credit-card-fraud-detection/
 
 ---
 
-# 🚀 Installation
+## 🚀 Installation
 
 Clone the repository
 
@@ -286,7 +286,7 @@ credit_card_fraud_detection.ipynb
 
 ---
 
-# 🔮 Future Improvements
+## 🔮 Future Improvements
 
 Possible extensions include:
 
@@ -300,7 +300,7 @@ Possible extensions include:
 
 ---
 
-# 🎯 Conclusion
+## 🎯 Conclusion
 
 This project demonstrates a complete machine learning workflow for detecting fraudulent credit card transactions. Through exploratory data analysis, careful preprocessing, and robust model evaluation, multiple classifiers were compared using Stratified Cross-Validation and Precision-Recall AUC.
 
@@ -310,7 +310,7 @@ Overall, this project highlights the importance of proper preprocessing, data le
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Arian**
 
