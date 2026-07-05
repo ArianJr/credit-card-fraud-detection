@@ -212,21 +212,6 @@ The final evaluation includes:
 
 # 📁 Repository Structure
 
-```
-Credit-Card-Fraud-Detection/
-│
-├── images/
-│   └── model_evaluation.png
-│
-├── Credit_Card_Fraud_Detection.ipynb
-├── creditcard.csv
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
-## 📁 Repository Structure
-
 ```text
 credit-card-fraud-detection/
 │
