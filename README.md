@@ -8,11 +8,11 @@
 
 > A machine learning project for detecting fraudulent credit card transactions using supervised learning techniques. This project addresses the severe class imbalance using **SMOTE**, evaluates multiple classification models, and selects the best-performing model based on **Precision-Recall AUC (PR-AUC)**.
 
+<img src="images/credit_card_fraud_detection_thumbnail.png" width="900">
+
 ---
 
 ## 📊 Project Overview
-
-<img src="images/credit_card_fraud_detection_thumbnail.png" width="900">
 
 This project develops an end-to-end fraud detection pipeline using Python and Scikit-learn. It follows the complete machine learning workflow, from exploratory data analysis and preprocessing to model training, evaluation, and comparison.
 
@@ -223,6 +223,25 @@ Credit-Card-Fraud-Detection/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+```
+
+## 📁 Repository Structure
+
+```text
+credit-card-fraud-detection/
+│
+├── credit_card_fraud_detection.ipynb   # Complete ML workflow
+├── README.md                           # Project documentation
+├── requirements.txt                    # Python dependencies
+├── LICENSE                             # MIT License
+├── .gitignore                          # Git ignore rules
+│
+├── data/
+│   └── DATASET.md                      # Dataset information & download link
+│
+└── images/
+    ├── thumbnail.png                  # README banner
+    └── model_evaluation.png           # Evaluation dashboard
 ```
 
 ---
