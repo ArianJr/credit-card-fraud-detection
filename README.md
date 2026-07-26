@@ -315,7 +315,7 @@ streamlit run app.py
 
 Upload a CSV of transactions (see `app/sample.csv` for the expected format).
 
-**[Live demo →](https://credit-card-fraud-detection.streamlit.app/)**
+**[Live demo →](https://fraud-detection-arianjr.streamlit.app/)**
 
 ---
 
