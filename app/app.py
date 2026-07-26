@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained pipeline (scaler + SMOTE + model, all in one object)
-pipeline = joblib.load("../model/fraud_pipeline.joblib")
+pipeline = joblib.load("model/fraud_pipeline.joblib")
 
 st.title("Credit Card Fraud Detector")
 st.write("Upload a CSV of transactions to check which ones look fraudulent.")
