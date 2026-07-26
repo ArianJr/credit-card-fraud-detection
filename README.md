@@ -236,19 +236,29 @@ The final evaluation includes:
 
 ```text
 credit-card-fraud-detection/
+├── app/
+│   ├── app.py                            # Streamlit web app
+│   ├── requirements.txt                  # App dependencies
+│   └── sample.csv                        # Sample data for testing
 │
-├── credit_card_fraud_detection.ipynb   # Complete ML workflow
-├── README.md                           # Project documentation
-├── requirements.txt                    # Python dependencies
-├── LICENSE                             # MIT License
-├── .gitignore                          # Git ignore rules
+├── model/
+│   └── fraud_pipeline.joblib             # Trained pipeline (scaler + SMOTE + model)
+│
+├── notebooks/
+│   └── credit_card_fraud_detection.ipynb # Complete ML workflow
 │
 ├── data/
-│   └── DATASET.md                      # Dataset information & download link
+│   └── DATASET.md                        # Dataset information & download link
 │
-└── images/
-    ├── thumbnail.png                  # README banner
-    └── model_evaluation.png           # Evaluation dashboard
+├── images/
+│   ├── app_screenshot.png                # App demo screenshot
+│   ├── credit_card_fraud_detection_thumbnail.png  # README banner
+│   └── model_evaluation.png              # Evaluation dashboard
+│
+├── README.md                             # Project documentation
+├── requirements.txt                      # Notebook dependencies
+├── LICENSE                               # MIT License
+└── .gitignore                            # Git ignore rules
 ```
 
 ---
