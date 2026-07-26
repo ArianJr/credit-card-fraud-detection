@@ -27,7 +27,8 @@
 - [📷 Results](#-results)
 - [💡 Key Findings](#-key-findings)
 - [📁 Repository Structure](#-repository-structure)
-- [🚀 Installation](#-installation)
+- [📓 Installation](#-installation)
+- [🚀 Try it yourself](#-try-it-yourself)
 - [🔮 Future Improvements](#-future-improvements)
 - [🎯 Conclusion](#-conclusion)
 - [👨‍💻 Author](#-author)
@@ -294,7 +295,7 @@ streamlit run app.py
 ​```
 Upload a CSV of transactions (see `app/sample.csv` for the expected format).
 
-**[Live demo →](credit-card-fraud-detection.streamlit.app)**
+**[Live demo →](https://credit-card-fraud-detection.streamlit.app)**
 
 ---
 
