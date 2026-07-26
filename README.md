@@ -4,6 +4,7 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-green)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red)](https://credit-card-fraud-detection.streamlit.app/)
 
 
 > A machine learning project for detecting fraudulent credit card transactions using supervised learning techniques. This project addresses the severe class imbalance using **SMOTE**, evaluates multiple classification models, and selects the best-performing model based on **Precision-Recall AUC (PR-AUC)**.
@@ -106,6 +107,8 @@ The project uses the **Credit Card Fraud Detection Dataset**, containing real-wo
 - Imbalanced-learn (SMOTE)
 - XGBoost
 - Jupyter Notebook
+- Streamlit
+- Joblib
 
 ---
 
@@ -335,6 +338,8 @@ Possible extensions include:
 This project demonstrates a complete machine learning workflow for detecting fraudulent credit card transactions. Through exploratory data analysis, careful preprocessing, and robust model evaluation, multiple classifiers were compared using Stratified Cross-Validation and Precision-Recall AUC.
 
 Among the evaluated models, **Random Forest combined with SMOTE** achieved the strongest overall performance, obtaining a **Cross-Validation PR-AUC of 0.8274**, a **Test ROC-AUC of 0.9694**, and a **Test PR-AUC of 0.8115**. These results indicate that the model effectively distinguishes fraudulent transactions while maintaining strong precision and recall despite the severe class imbalance.
+
+To make the model accessible beyond the notebook, the trained pipeline was deployed as an **interactive Streamlit web app**, allowing users to upload transaction data and receive fraud predictions with an adjustable decision threshold in real time.
 
 Overall, this project highlights the importance of proper preprocessing, data leakage prevention through machine learning pipelines, and selecting evaluation metrics that are appropriate for imbalanced classification problems.
 
