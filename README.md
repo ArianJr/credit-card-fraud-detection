@@ -264,22 +264,27 @@ credit-card-fraud-detection/
 ---
 
 ## 📓 Installation (Notebook)
+
 Clone the repository
-​```bash
+```bash
 git clone https://github.com/ArianJr/credit-card-fraud-detection.git
-​```
+```
+
 Navigate to the project
-​```bash
+```bash
 cd credit-card-fraud-detection
-​```
+```
+
 Install dependencies
-​```bash
+```bash
 pip install -r requirements.txt
-​```
+```
+
 Launch Jupyter Notebook
-​```bash
+```bash
 jupyter notebook
-​```
+```
+
 Open `notebooks/credit_card_fraud_detection.ipynb`
 
 ---
@@ -288,24 +293,26 @@ Open `notebooks/credit_card_fraud_detection.ipynb`
 
 ![App screenshot](images/app_screenshot.png)
 
-An interactive Streamlit app lets you upload a CSV of transactions and get 
-back fraud probabilities with an adjustable decision threshold.
+An interactive Streamlit app lets you upload a CSV of transactions and get back fraud probabilities with an adjustable decision threshold.
 
 Navigate to the app folder
-​```bash
+```bash
 cd app
-​```
+```
+
 Install app dependencies
-​```bash
+```bash
 pip install -r requirements.txt
-​```
+```
+
 Launch the app
-​```bash
+```bash
 streamlit run app.py
-​```
+```
+
 Upload a CSV of transactions (see `app/sample.csv` for the expected format).
 
-**[Live demo →](https://credit-card-fraud-detection.streamlit.app)**
+**[Live demo →](https://credit-card-fraud-detection.streamlit.app/)**
 
 ---
 
